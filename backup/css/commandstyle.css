@@ -1,0 +1,116 @@
+/* Defacto Style for home page*/
+
+
+/* Font guide
+heading 1 = Acme
+heading 2, 3 4 = Robotto Condensed
+paragraph = Roboto Slab
+commands = Roboto Mono
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+font-family: 'Acme', sans-serif;
+1em = 16px
+----------------------------------
+Color palete: https://colorhunt.co/palette/44430
+background: #f9f5f0  
+h1: #321313
+h2 h3 h4: #f4991a
+background for menu: #f2ead3
+*/
+
+html {
+    background-color: #f9f5f0 !important
+}
+
+body {
+    width: 80% !important;
+    display: block;
+    margin: auto;
+    background-color: #f9f5f0 !important
+}
+
+h1 {
+    color: #321313;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+    font-size: 6em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+h2,
+h3 {
+    color: #f4991a;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+}
+
+p,
+li,
+.navbar {
+    font-family: 'Roboto Slab', serif;
+    line-height: 2em;
+}
+
+.cmds {
+    font-family: 'Roboto Mono', monospace;
+    border-left: 2px solid #321313;
+    padding-left: 1%;
+    background: rgb(255,230,199);
+    background: linear-gradient(90deg, rgba(255,230,199,1) 28%, rgba(255,230,199,1) 37%, rgba(249,245,240,1) 88%);    list-style-type: none;
+    font-weight: bold;
+
+}
+
+.cmds-example {
+    list-style-type: none !important
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+table {
+    border-spacing: 15px;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.commandscreenshot {
+    margin-left: 2%;
+    margin-top: .50%;
+    margin-bottom: .50%;
+}
+
+.footerimg {
+    width: 7%;
+    padding: 2%;
+    border: 1px solid red;
+}
+
+.footer_custom {
+    width: 70%;
+}
+
+.row-footer {
+    border: 1px solid green;
+}
+
+.navbar ul li a {
+    color: black !important
+}
+
+.navbar ul li a:hover {
+    background-color: #f9f5f0;
+    color: black !important;
+}
